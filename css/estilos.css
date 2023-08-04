@@ -2,12 +2,10 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-}
+  box-sizing: border-box; }
 
 body {
-  font-family: "Poppins", sans-serif;
-}
+  font-family: "Poppins", sans-serif; }
 
 header {
   background-color: #6ec1e4;
@@ -16,25 +14,20 @@ header {
   display: flex;
   top: 0;
   justify-content: space-between;
-  align-items: center;
-}
-header a img {
-  width: 50px;
-  height: 50px;
-}
-header nav ul {
-  list-style: none;
-  padding: 10px;
-  display: flex;
-}
-header nav ul li {
-  padding: 10px;
-}
-header nav ul li a {
-  text-decoration: none;
-  color: white;
-  font-size: 25px;
-}
+  align-items: center; }
+  header a img {
+    width: 50px;
+    height: 50px; }
+  header nav ul {
+    list-style: none;
+    padding: 10px;
+    display: flex; }
+    header nav ul li {
+      padding: 10px; }
+      header nav ul li a {
+        text-decoration: none;
+        color: white;
+        font-size: 25px; }
 
 .hero {
   width: 100%;
@@ -44,22 +37,19 @@ header nav ul li a {
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  text-align: center;
-}
-.hero h1 {
-  color: white;
-  font-size: 40px;
-  border: 5px white solid;
-  display: inline-block;
-  padding: 15px;
-  margin-bottom: 130px;
-}
-.hero p {
-  font-size: 40px;
-  color: white;
-  margin-bottom: 140px;
-  position: relative;
-}
+  text-align: center; }
+  .hero h1 {
+    color: white;
+    font-size: 40px;
+    border: 5px white solid;
+    display: inline-block;
+    padding: 15px;
+    margin-bottom: 130px; }
+  .hero p {
+    font-size: 40px;
+    color: white;
+    margin-bottom: 140px;
+    position: relative; }
 
 .boton {
   text-decoration: none;
@@ -67,8 +57,7 @@ header nav ul li a {
   background-color: white;
   padding: 10px;
   border-radius: 15px;
-  font-size: 30px;
-}
+  font-size: 30px; }
 
 footer {
   background-color: #6ec1e4;
@@ -76,51 +65,43 @@ footer {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 20px;
-}
-footer a img {
-  width: 50px;
-  height: 50px;
-}
-footer p {
-  font-size: 25px;
-  font-weight: 500;
-}
-footer div a img {
-  width: 50px;
-  height: 50px;
-}
+  padding: 20px; }
+  footer a img {
+    width: 50px;
+    height: 50px; }
+  footer p {
+    font-size: 25px;
+    font-weight: 500; }
+  footer div a img {
+    width: 50px;
+    height: 50px; }
 
 .jumbotron {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url(/img/sede-centro2.jpg);
+  background-image: url(../img/sede-centro2.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
   text-align: center;
-  height: 500px;
-}
-.jumbotron div h1 {
-  color: aqua;
-  font-size: 80px;
-  display: inline-block;
-  padding: 15px;
-}
-.jumbotron div p {
-  font-size: 40px;
-  color: white;
-  margin-bottom: 140px;
-  position: relative;
-}
+  height: 500px; }
+  .jumbotron div h1 {
+    color: aqua;
+    font-size: 80px;
+    display: inline-block;
+    padding: 15px; }
+  .jumbotron div p {
+    font-size: 40px;
+    color: white;
+    margin-bottom: 140px;
+    position: relative; }
 
 .main-sedes {
   text-align: center;
   margin-top: 25px;
-  font-size: 40px;
-}
+  font-size: 40px; }
 
 .grid-sedes {
   margin-top: 50px;
@@ -129,89 +110,72 @@ footer div a img {
   display: grid;
   grid-template-columns: 1fr;
   grid-auto-rows: auto;
-  grid-template-areas:
-    "ubicacion"
-    "horario "
-    "info";
-  gap: 20px;
-}
+  grid-template-areas: "ubicacion" "horario " "info";
+  gap: 20px; }
 
 .ubicacion {
   display: flex;
-  grid-area: ubicacion;
-}
-.ubicacion iframe {
-  width: 100%;
-}
+  grid-area: ubicacion; }
+  .ubicacion iframe {
+    width: 100%; }
 
 .horario {
   background-color: black;
   grid-area: horario;
   text-align: center;
-  color: white;
-}
-.horario img {
-  width: 500px !important;
-  height: auto !important;
-}
+  color: white; }
+  .horario img {
+    width: 500px !important;
+    height: auto !important; }
 
 .info {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 15px;
-  grid-area: info;
-}
-.info div {
-  width: 40%;
-  padding: 10px;
-  background-color: rgba(0, 0, 0, 0.178);
-}
-.info div h2 {
-  margin-bottom: 30px;
-  font-size: 30px;
-  font-weight: 600px;
-  font-style: italic;
-}
-.info div h3 {
-  font-size: 20px;
-}
+  grid-area: info; }
+  .info div {
+    width: 40%;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.178); }
+    .info div h2 {
+      margin-bottom: 30px;
+      font-size: 30px;
+      font-weight: 600px;
+      font-style: italic; }
+    .info div h3 {
+      font-size: 20px; }
 
 .img-sedecentro {
   height: 500px !important;
-  width: 50% !important;
-}
+  width: 50% !important; }
 
 .jumbotron {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url(/img/sede-centro2.jpg);
+  background-image: url(../img/sede-centro2.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
   text-align: center;
-  height: 500px;
-}
-.jumbotron div h1 {
-  color: aqua;
-  font-size: 80px;
-  display: inline-block;
-  padding: 15px;
-}
-.jumbotron div p {
-  font-size: 40px;
-  color: white;
-  margin-bottom: 140px;
-  position: relative;
-}
+  height: 500px; }
+  .jumbotron div h1 {
+    color: aqua;
+    font-size: 80px;
+    display: inline-block;
+    padding: 15px; }
+  .jumbotron div p {
+    font-size: 40px;
+    color: white;
+    margin-bottom: 140px;
+    position: relative; }
 
 .main-sedes {
   text-align: center;
   margin-top: 25px;
-  font-size: 40px;
-}
+  font-size: 40px; }
 
 .grid-sedes {
   margin-top: 50px;
@@ -220,95 +184,74 @@ footer div a img {
   display: grid;
   grid-template-columns: 1fr;
   grid-auto-rows: auto;
-  grid-template-areas:
-    "ubicacion"
-    "horario "
-    "info";
-  gap: 20px;
-}
+  grid-template-areas: "ubicacion" "horario " "info";
+  gap: 20px; }
 
 .ubicacion {
   display: flex;
-  grid-area: ubicacion;
-}
-.ubicacion iframe {
-  width: 100%;
-}
+  grid-area: ubicacion; }
+  .ubicacion iframe {
+    width: 100%; }
 
 .horario {
   background-color: black;
   grid-area: horario;
   text-align: center;
-  color: white;
-}
-.horario img {
-  width: 500px !important;
-  height: auto !important;
-}
+  color: white; }
+  .horario img {
+    width: 500px !important;
+    height: auto !important; }
 
 .info {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 15px;
-  grid-area: info;
-}
-.info div {
-  width: 40%;
-  padding: 10px;
-  background-color: rgba(0, 0, 0, 0.178);
-}
-.info div h2 {
-  margin-bottom: 30px;
-  font-size: 30px;
-  font-weight: 600px;
-  font-style: italic;
-}
-.info div h3 {
-  font-size: 20px;
-}
+  grid-area: info; }
+  .info div {
+    width: 40%;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.178); }
+    .info div h2 {
+      margin-bottom: 30px;
+      font-size: 30px;
+      font-weight: 600px;
+      font-style: italic; }
+    .info div h3 {
+      font-size: 20px; }
 
 .img-sedecentro {
   height: 500px !important;
-  width: 50% !important;
-}
+  width: 50% !important; }
 
 .altomain {
-  height: 105vh;
-}
+  height: 105vh; }
 
 .rutinas {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 15px;
-}
-.rutinas div {
-  width: 40%;
-  background-color: #6ec1e4;
-  padding: 10px;
-}
-.rutinas div h2 {
-  margin-bottom: 20px;
-  font-size: 45px;
-  font-weight: 600px;
-}
-.rutinas div h3 {
-  font-size: 20px;
-}
-.rutinas img {
-  height: 500px;
-}
+  padding: 15px; }
+  .rutinas div {
+    width: 40%;
+    background-color: #6ec1e4;
+    padding: 10px; }
+    .rutinas div h2 {
+      margin-bottom: 20px;
+      font-size: 45px;
+      font-weight: 600px; }
+    .rutinas div h3 {
+      font-size: 20px; }
+  .rutinas img {
+    height: 500px; }
 
 .img-rutinas {
   display: flex;
-  justify-content: right;
-}
-.img-rutinas div a img {
-  height: 100px;
-  padding: 15px;
-  margin: 25px;
-}
+  justify-content: right; }
+  .img-rutinas div a img {
+    height: 100px;
+    padding: 15px;
+    margin: 25px; }
 
 .formulario {
   color: white;
@@ -318,60 +261,21 @@ footer div a img {
   margin: 0 auto;
   margin-top: 100px;
   margin-bottom: 80px;
-  background-image: linear-gradient(
-      66deg,
-      transparent 0%,
-      transparent 24%,
-      rgba(195, 195, 195, 0.04) 24%,
-      rgba(195, 195, 195, 0.04) 80%,
-      transparent 80%,
-      transparent 100%
-    ),
-    linear-gradient(
-      153deg,
-      transparent 0%,
-      transparent 29%,
-      rgba(195, 195, 195, 0.04) 29%,
-      rgba(195, 195, 195, 0.04) 45%,
-      transparent 45%,
-      transparent 100%
-    ),
-    linear-gradient(
-      199deg,
-      transparent 0%,
-      transparent 32%,
-      rgba(195, 195, 195, 0.04) 32%,
-      rgba(195, 195, 195, 0.04) 59%,
-      transparent 59%,
-      transparent 100%
-    ),
-    linear-gradient(
-      277deg,
-      transparent 0%,
-      transparent 56%,
-      rgba(195, 195, 195, 0.04) 56%,
-      rgba(195, 195, 195, 0.04) 57%,
-      transparent 57%,
-      transparent 100%
-    ),
-    linear-gradient(90deg, black, black);
+  background-image: linear-gradient(66deg, transparent 0%, transparent 24%, rgba(195, 195, 195, 0.04) 24%, rgba(195, 195, 195, 0.04) 80%, transparent 80%, transparent 100%), linear-gradient(153deg, transparent 0%, transparent 29%, rgba(195, 195, 195, 0.04) 29%, rgba(195, 195, 195, 0.04) 45%, transparent 45%, transparent 100%), linear-gradient(199deg, transparent 0%, transparent 32%, rgba(195, 195, 195, 0.04) 32%, rgba(195, 195, 195, 0.04) 59%, transparent 59%, transparent 100%), linear-gradient(277deg, transparent 0%, transparent 56%, rgba(195, 195, 195, 0.04) 56%, rgba(195, 195, 195, 0.04) 57%, transparent 57%, transparent 100%), linear-gradient(90deg, black, black);
   width: 700px;
   -webkit-box-shadow: 9px 14px 33px 10px rgba(0, 0, 0, 0.91);
   box-shadow: 9px 14px 33px 10px rgba(0, 0, 0, 0.91);
   background-position: center;
   padding: 30px 33px 67px;
-  border-top: white 6px solid;
-}
+  border-top: white 6px solid; }
 
 form h1 {
-  padding-bottom: 30px;
-}
+  padding-bottom: 30px; }
 
 form p {
   font-family: "Montserrat", sans-serif;
   padding-bottom: 20px;
-  padding-top: 20px;
-}
+  padding-top: 20px; }
 
 form input {
   font-family: "Montserrat", sans-serif;
@@ -380,13 +284,11 @@ form input {
   font-size: 1.1rem;
   margin-bottom: 2.5rem;
   background: transparent;
-  color: white;
-}
+  color: white; }
 
 form :hover {
   color: #014747;
-  transition: 0.3s;
-}
+  transition: 0.3s; }
 
 button {
   background-color: white;
@@ -394,153 +296,108 @@ button {
   padding: 0.7rem 3rem;
   color: #04444d;
   border: none;
-  border-radius: 30px;
-}
+  border-radius: 30px; }
 
 .contenedorboton :hover {
   color: white;
   background-color: teal;
-  transition: 0.4s;
-}
+  transition: 0.4s; }
 
 @media screen and (max-width: 670px) {
   header {
-    flex-direction: column;
-  }
+    flex-direction: column; }
   footer {
-    flex-direction: column;
-  }
-}
+    flex-direction: column; } }
 
 @media screen and (max-width: 530px) {
   .hero h1 {
-    font-size: 30px;
-  }
+    font-size: 30px; }
   .hero p {
     font-size: 20px;
-    margin-bottom: 75px;
-  }
+    margin-bottom: 75px; }
   footer p {
-    font-size: 20px;
-  }
+    font-size: 20px; }
   header nav ul {
-    flex-direction: column;
-  }
+    flex-direction: column; }
   .rutinas img {
-    height: 350px;
-  }
+    height: 350px; }
   .img-rutinas div a img {
     height: 70px;
     padding: 10px;
-    margin: 10px;
-  }
+    margin: 10px; }
   .hero .boton {
-    font-size: 15px;
-  }
-}
+    font-size: 15px; } }
 
 @media screen and (max-width: 1000px) {
   .grid-item iframe {
     width: 100%;
-    height: 450px;
-  }
-}
+    height: 450px; } }
 
 @media screen and (max-width: 650px) {
   .grid-sedes {
-    grid-template-columns: 1fr;
-  }
+    grid-template-columns: 1fr; }
   .info {
     flex-direction: column;
-    background-color: black;
-  }
+    background-color: black; }
   .info h2 {
     color: white;
     font-size: 10px;
-    width: auto;
-  }
+    width: auto; }
   .info h3 {
     color: white;
-    font-size: 10px;
-  }
-}
+    font-size: 10px; } }
 
 @media screen and (max-width: 900px) {
   .rutinas {
-    flex-direction: column;
-  }
+    flex-direction: column; }
   .rutinas div {
-    width: 100%;
-  }
+    width: 100%; }
   .img-rutinas {
-    justify-content: center;
-  }
-}
+    justify-content: center; } }
 
 @media screen and (max-width: 375px) {
   .img-rutinas {
-    padding-left: 75px;
-  }
-  .img-rutinas .altomain {
-    height: 210px;
-  }
-}
+    padding-left: 75px; }
+    .img-rutinas .altomain {
+      height: 210px; } }
 
 @media screen and (max-width: 1075px) {
   .altomain {
-    height: 200vh;
-  }
+    height: 200vh; }
   .hero p {
     font-size: 25px;
-    margin-bottom: 75px;
-  }
+    margin-bottom: 75px; }
   .altocontacto {
-    height: 140vh;
-  }
-}
+    height: 140vh; } }
 
 @media screen and (max-width: 560px) {
   .altomain {
-    height: 230vh;
-  }
+    height: 230vh; }
   .caja-contacto {
-    max-width: 300px;
-  }
+    max-width: 300px; }
   form {
-    max-width: 300px;
-  }
+    max-width: 300px; }
   .jumbotron {
-    height: 300px;
-  }
+    height: 300px; }
   .jumbotron div h1 {
     font-size: 40px;
-    padding: 5px;
-  }
+    padding: 5px; }
   .jumbotron div p {
     font-size: 20px;
-    margin-bottom: 40px;
-  }
+    margin-bottom: 40px; }
   .img-sedecentro {
     height: 300px !important;
-    width: 100% !important;
-  }
+    width: 100% !important; }
   .horario img {
     width: 300px !important;
-    height: auto !important;
-  }
+    height: auto !important; }
   .grid-sedes {
-    margin-top: 30px;
-  }
+    margin-top: 30px; }
   .ubicacion iframe {
-    height: 300px;
-  }
-}
+    height: 300px; } }
 
 @media screen and (max-width: 705px) {
   form {
-    max-width: 300px;
-  }
+    max-width: 300px; }
   .formulario {
-    width: 330px;
-  }
-}
+    width: 330px; } }
