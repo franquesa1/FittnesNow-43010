@@ -52,17 +52,32 @@
     .grid-sedes {
         grid-template-columns: 1fr;
     }
+    .info{
+        flex-direction: column;
+        background-color: black;
+    }
+    .info h2{
+        color: white;
+        font-size: 10px;
+        width: auto;
+    }
+    .info h3{
+        color: white;
+        font-size: 10px;
+    }
+    
 }
 
 @media screen and (max-width: 900px) {
     .rutinas {
         flex-direction: column;
+
     }
 
     .rutinas div {
         width: 100%;
     }
-
+    
     .img-rutinas {
         justify-content: center;
     }
@@ -105,6 +120,34 @@
     form {
         max-width: 300px;
     }
+    .jumbotron {
+        height: 300px;
+      }
+    
+      .jumbotron div h1 {
+        font-size: 40px;
+        padding: 5px;
+      }
+    
+      .jumbotron div p {
+        font-size: 20px;
+        margin-bottom: 40px;
+      }
+      .img-sedecentro {
+        height: 300px !important;
+        width: 100% !important;
+      }
+      .horario img {
+        width: 300px !important;
+        height: auto !important;
+      }
+      .grid-sedes {
+        margin-top: 30px;
+      }
+    
+      .ubicacion iframe {
+        height: 300px;
+      }
 }
 @media screen and (max-width: 705px) {
 
@@ -116,3 +159,4 @@
         width: 330px;
     }
 }
+

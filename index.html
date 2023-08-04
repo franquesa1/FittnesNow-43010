@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="css/estilos.css">
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
@@ -13,15 +14,37 @@
 
 <body>
     <header>
-        <a href="./index.html"> <img src="./img/fitness-now.png" alt="Logo gym"></a>
-        <nav>
-            <ul>
-                
-                <li><a href="./pages/sedes.html">Sedes</a></li>
-                <li><a href="./pages/reto12semanas.html">Reto 12 semanas</a></li>
-                <li><a href="./pages/rutinas.html">Rutinas</a></li>
-                <li><a href="./pages/contacto.html">Contacto</a></li>
-            </ul>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="./index.html"><img src="/img/fitness-now.png" alt="" class="img-nav"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./pages/rutinas.html">Rutinas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Sedes
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="pages/sede-centro.html">Sede Centro</a></li>
+                                <li><a class="dropdown-item" href="./pages/sede-belgrano.html">Sede Belgrano</a></li>
+                                <li><a class="dropdown-item" href="./pages/sede-peron.html">Sede Peron</a></li>
+                                <li><a class="dropdown-item" href="./pages/sede-solar.html">Sede Solar</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
     </header>
     <main>
@@ -38,7 +61,8 @@
                             <img src="./img/sede-lules.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">Sede Centro</h5>
-                                <p class="card-text">Ubicado en la calle Jose de San Martin 451, con instalaciones con altos estandares de calidad, un gimnasio cerca, no importa donde estes.</p>
+                                <p class="card-text">Ubicado en la calle Jose de San Martin 451, con instalaciones con
+                                    altos estandares de calidad, un gimnasio cerca, no importa donde estes.</p>
                                 <a href="./pages/sedes.html" class="btn btn-primary">Ver Ubicacion</a>
                             </div>
                         </div>
@@ -48,7 +72,8 @@
                             <img src="./img/sede-belgrano.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">Sede Belgrano</h5>
-                                <p class="card-text">Ubicado en la calle AV. Belgrano 4544, con instalaciones con altos estandares de calidad, un gimnasio cerca, no importa donde estes.</p>
+                                <p class="card-text">Ubicado en la calle AV. Belgrano 4544, con instalaciones con altos
+                                    estandares de calidad, un gimnasio cerca, no importa donde estes.</p>
                                 <a href="./pages/sedes.html" class="btn btn-primary">Ver Ubicacion</a>
                             </div>
                         </div>
@@ -58,7 +83,8 @@
                             <img src="./img/sede-solar.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">Sede Solar</h5>
-                                <p class="card-text">Ubicado en la calle AV. Aconquija 1539 ,con instalaciones con altos estandares de calidad, un gimnasio cerca, no importa donde estes.</p>
+                                <p class="card-text">Ubicado en la calle AV. Aconquija 1539 ,con instalaciones con altos
+                                    estandares de calidad, un gimnasio cerca, no importa donde estes.</p>
                                 <a href="./pages/sedes.html" class="btn btn-primary">Ver Ubicacion</a>
                             </div>
                         </div>
@@ -68,7 +94,8 @@
                             <img src="./img/sede-peron.jpg" class="card-img-top" alt="">
                             <div class="card-body">
                                 <h5 class="card-title">Sede Peron</h5>
-                                <p class="card-text">Ubicado en la calle AV. Peron 1793,con instalaciones con altos estandares de calidad, un gimnasio cerca, no importa donde estes.</p>
+                                <p class="card-text">Ubicado en la calle AV. Peron 1793,con instalaciones con altos
+                                    estandares de calidad, un gimnasio cerca, no importa donde estes.</p>
                                 <a href="./pages/sedes.html" class="btn btn-primary">Ver Ubicacion</a>
                             </div>
                         </div>
@@ -97,7 +124,9 @@
 
     </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
