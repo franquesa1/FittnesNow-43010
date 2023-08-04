@@ -1,0 +1,118 @@
+@media screen and (max-width: 670px) {
+    header {
+        flex-direction: column;
+    }
+
+    footer {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 530px) {
+    .hero h1 {
+        font-size: 30px;
+    }
+
+    .hero p {
+        font-size: 20px;
+        margin-bottom: 75px;
+    }
+
+    footer p {
+        font-size: 20px;
+    }
+
+    header nav ul {
+        flex-direction: column;
+    }
+
+    .rutinas img {
+        height: 350px;
+    }
+
+    .img-rutinas div a img {
+        height: 70px;
+        padding: 10px;
+        margin: 10px;
+    }
+
+    .hero .boton {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .grid-item iframe {
+        width: 100%;
+        height: 450px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .grid-sedes {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .rutinas {
+        flex-direction: column;
+    }
+
+    .rutinas div {
+        width: 100%;
+    }
+
+    .img-rutinas {
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .img-rutinas {
+        padding-left: 75px;
+
+        .altomain {
+            height: 210px;
+        }
+    }
+}
+
+@media screen and (max-width: 1075px) {
+    .altomain {
+        height: 200vh;
+    }
+
+    .hero p {
+        font-size: 25px;
+        margin-bottom: 75px;
+    }
+
+    .altocontacto {
+        height: 140vh;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .altomain {
+        height: 230vh;
+    }
+
+    .caja-contacto {
+        max-width: 300px;
+    }
+
+    form {
+        max-width: 300px;
+    }
+}
+@media screen and (max-width: 705px) {
+
+
+    form {
+        max-width: 300px;
+    }
+    .formulario{
+        width: 330px;
+    }
+}

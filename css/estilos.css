@@ -1,0 +1,177 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;1,200;1,300;1,400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: "Poppins", sans-serif; }
+
+header {
+  background-color: #6ec1e4;
+  font-weight: 500;
+  padding: 25px 10px 25px 10px;
+  display: flex;
+  top: 0;
+  justify-content: space-between;
+  align-items: center; }
+  header a img {
+    width: 50px;
+    height: 50px; }
+  header nav ul {
+    list-style: none;
+    padding: 10px;
+    display: flex; }
+    header nav ul li {
+      padding: 10px; }
+      header nav ul li a {
+        text-decoration: none;
+        color: white;
+        font-size: 25px; }
+
+.hero {
+  width: 100%;
+  height: 80vh;
+  background-image: url(../img/img-2.avif);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  text-align: center; }
+  .hero h1 {
+    color: white;
+    font-size: 40px;
+    border: 5px white solid;
+    display: inline-block;
+    padding: 15px;
+    margin-bottom: 130px; }
+  .hero p {
+    font-size: 40px;
+    color: white;
+    margin-bottom: 140px;
+    position: relative; }
+
+.boton {
+  text-decoration: none;
+  color: black;
+  background-color: white;
+  padding: 10px;
+  border-radius: 15px;
+  font-size: 30px; }
+
+footer {
+  background-color: #6ec1e4;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px; }
+  footer a img {
+    width: 50px;
+    height: 50px; }
+  footer p {
+    font-size: 25px;
+    font-weight: 500; }
+  footer div a img {
+    width: 50px;
+    height: 50px; }
+
+.altomain {
+  height: 105vh; }
+
+.rutinas {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px; }
+  .rutinas div {
+    width: 40%;
+    background-color: #6ec1e4;
+    padding: 10px; }
+    .rutinas div h2 {
+      margin-bottom: 20px;
+      font-size: 45px;
+      font-weight: 600px; }
+    .rutinas div h3 {
+      font-size: 20px; }
+  .rutinas img {
+    height: 500px; }
+
+.img-rutinas {
+  display: flex;
+  justify-content: right; }
+  .img-rutinas div a img {
+    height: 100px;
+    padding: 15px;
+    margin: 25px; }
+
+@media screen and (max-width: 670px) {
+  header {
+    flex-direction: column; }
+  footer {
+    flex-direction: column; } }
+
+@media screen and (max-width: 530px) {
+  .hero h1 {
+    font-size: 30px; }
+  .hero p {
+    font-size: 20px;
+    margin-bottom: 75px; }
+  footer p {
+    font-size: 20px; }
+  header nav ul {
+    flex-direction: column; }
+  .rutinas img {
+    height: 350px; }
+  .img-rutinas div a img {
+    height: 70px;
+    padding: 10px;
+    margin: 10px; }
+  .hero .boton {
+    font-size: 15px; } }
+
+@media screen and (max-width: 1000px) {
+  .grid-item iframe {
+    width: 100%;
+    height: 450px; } }
+
+@media screen and (max-width: 650px) {
+  .grid-sedes {
+    grid-template-columns: 1fr; } }
+
+@media screen and (max-width: 900px) {
+  .rutinas {
+    flex-direction: column; }
+  .rutinas div {
+    width: 100%; }
+  .img-rutinas {
+    justify-content: center; } }
+
+@media screen and (max-width: 375px) {
+  .img-rutinas {
+    padding-left: 75px; }
+    .img-rutinas .altomain {
+      height: 210px; } }
+
+@media screen and (max-width: 1075px) {
+  .altomain {
+    height: 200vh; }
+  .hero p {
+    font-size: 25px;
+    margin-bottom: 75px; }
+  .altocontacto {
+    height: 140vh; } }
+
+@media screen and (max-width: 560px) {
+  .altomain {
+    height: 230vh; }
+  .caja-contacto {
+    max-width: 300px; }
+  form {
+    max-width: 300px; } }
+
+@media screen and (max-width: 705px) {
+  form {
+    max-width: 300px; }
+  .formulario {
+    width: 330px; } }
