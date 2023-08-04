@@ -1,0 +1,84 @@
+.formulario{
+    color: white;
+    flex-wrap: wrap;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 80px;
+    background-image: linear-gradient(66deg,
+            transparent 0%,
+            transparent 24%,
+            rgba(195, 195, 195, 0.04) 24%,
+            rgba(195, 195, 195, 0.04) 80%,
+            transparent 80%,
+            transparent 100%),
+        linear-gradient(153deg,
+            transparent 0%,
+            transparent 29%,
+            rgba(195, 195, 195, 0.04) 29%,
+            rgba(195, 195, 195, 0.04) 45%,
+            transparent 45%,
+            transparent 100%),
+        linear-gradient(199deg,
+            transparent 0%,
+            transparent 32%,
+            rgba(195, 195, 195, 0.04) 32%,
+            rgba(195, 195, 195, 0.04) 59%,
+            transparent 59%,
+            transparent 100%),
+        linear-gradient(277deg,
+            transparent 0%,
+            transparent 56%,
+            rgba(195, 195, 195, 0.04) 56%,
+            rgba(195, 195, 195, 0.04) 57%,
+            transparent 57%,
+            transparent 100%),
+        linear-gradient(90deg, rgb(0, 0, 0), rgb(0, 0, 0));
+    width: 700px;
+    -webkit-box-shadow: 9px 14px 33px 10px rgba(0, 0, 0, 0.91);
+    box-shadow: 9px 14px 33px 10px rgba(0, 0, 0, 0.91);
+    background-position: center;
+    padding: 30px 33px 67px;
+    border-top: rgb(255, 255, 255) 6px solid;
+}
+
+form{
+    h1{
+        padding-bottom: 30px;
+    }
+    p{
+        font-family: "Montserrat", sans-serif;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    }
+    input{
+        font-family: "Montserrat", sans-serif;
+    border: none;
+    border-bottom: 2px rgb(255, 255, 255) solid;
+    font-size: 1.1rem;
+    margin-bottom: 2.5rem;
+    background: transparent;
+    color: white;
+    }
+    & :hover{
+        color: rgb(1, 71, 71);
+        transition: 0.3s;
+    }
+    
+}
+button{
+    background-color: rgb(255, 255, 255);
+    font-family: "Montserrat", sans-serif;
+    padding: 0.7rem 3rem;
+    color: rgb(4, 68, 77);
+    border: none;
+    border-radius: 30px;
+}
+.contenedorboton{
+    & :hover{
+        color: white;
+    background-color: teal;
+    transition: 0.4s;
+    }
+}
