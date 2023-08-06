@@ -110,9 +110,7 @@ footer {
   display: grid;
   grid-template-columns: 1fr;
   grid-auto-rows: auto;
-  grid-template-areas: "ubicacion"
- "horario "
- "info";
+  grid-template-areas: "ubicacion" "horario " "info";
   gap: 20px; }
 
 .ubicacion {
@@ -151,8 +149,6 @@ footer {
 .img-sedecentro {
   height: 500px !important;
   width: 50% !important; }
-
-
 
 .altomain {
   height: 105vh; }

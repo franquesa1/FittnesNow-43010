@@ -1,5 +1,5 @@
 .formulario{
-    color: white;
+    color: $color-secundario;
     flex-wrap: wrap;
     font-family: "Montserrat", sans-serif;
     text-align: center;
@@ -59,7 +59,7 @@ form{
     font-size: 1.1rem;
     margin-bottom: 2.5rem;
     background: transparent;
-    color: white;
+    color:$color-secundario;
     }
     & :hover{
         color: rgb(1, 71, 71);
@@ -77,7 +77,7 @@ button{
 }
 .contenedorboton{
     & :hover{
-        color: white;
+        color:$color-secundario ;
     background-color: teal;
     transition: 0.4s;
     }

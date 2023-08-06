@@ -18,7 +18,7 @@
     }
     p{
         font-size: 40px;
-    color: white;
+    color: $color-secundario;
     margin-bottom: 140px;
     position: relative;
     }
@@ -55,7 +55,7 @@
     background-color: black;
     grid-area: horario;
     text-align: center;
-    color: white;
+    color: $color-secundario;
     
     img{
         width: 500px !important;

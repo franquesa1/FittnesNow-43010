@@ -9,13 +9,14 @@
 }
 
 @media screen and (max-width: 530px) {
-    .hero h1 {
-        font-size: 30px;
-    }
-
-    .hero p {
-        font-size: 20px;
-        margin-bottom: 75px;
+    .hero{
+        h1{
+            font-size: 30px;
+        }
+        p{
+            font-size: 20px;
+            margin-bottom: 75px;
+        }
     }
 
     footer p {

@@ -1,1 +1,55 @@
-//VARIABLES
+//*VARIABLES //
+$color-primario:#6ec1e4;
+$color-secundario: white;
+$color-terciario:black;
+
+
+//* LISTAS //
+$font-size:
+10px
+15px
+20px
+25px
+30px
+40px
+50px
+;
+
+
+//h1{font-size:nth($font-size, 3) ;//
+
+
+
+    //* MAPAS //
+
+
+
+
+    //* EXTENDS
+
+    %flex{
+        display:flex;
+        justify-content:center;
+        align-items: center;
+    }
+
+
+    //* MIXINS// 
+    @mixin flex ($flex, $justify, $align){
+        display: $flex;
+        justify-content: $justify;
+        align-items: $align;
+    }
+
+
+
+
+
+      //* CONDICIONALES// 
+      //*  OPERADORES DE COMPARACION
+      // == SON IGUALES
+      // != ES DIFERENTE
+      // < MENOR QUE
+      // > MAYOR QUE 
+      // > MAYOR O IGUAL
+      // < MENOR O IGUAL
