@@ -2,11 +2,8 @@ header{
     background-color: $color-primario;
     font-weight: 500;
     padding: 25px 10px 25px 10px;
-    display: flex;
     top: 0;
-    justify-content: space-between;
-    align-items: center;
-    
+    @include flex (flex, space-between, center);
     a{
         img{
             width: 50px;

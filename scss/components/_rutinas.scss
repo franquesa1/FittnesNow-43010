@@ -2,9 +2,7 @@
     height: 105vh;
 }
 .rutinas{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    @include flex (flex, space-between, center);
     padding: 15px;
     div{
         width: 40%;

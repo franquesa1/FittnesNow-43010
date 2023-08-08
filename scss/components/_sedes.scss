@@ -65,9 +65,7 @@
     
 }
 .info{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    @include flex (flex, space-between, center);
     padding: 15px;
     grid-area: info;
     div{

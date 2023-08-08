@@ -11,8 +11,8 @@ header {
   background-color: #6ec1e4;
   font-weight: 500;
   padding: 25px 10px 25px 10px;
-  display: flex;
   top: 0;
+  display: flex;
   justify-content: space-between;
   align-items: center; }
   header a img {
