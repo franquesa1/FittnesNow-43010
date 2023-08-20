@@ -21,6 +21,11 @@
     margin-bottom: 140px;
     position: relative;
     }
+    a:hover{
+        background-color: rgba(127, 246, 255, 0.014);
+        color: aquamarine;
+        transition: 1s;
+    }
     
 }
 .boton {

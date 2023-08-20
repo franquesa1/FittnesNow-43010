@@ -50,6 +50,10 @@ header {
     color: white;
     margin-bottom: 140px;
     position: relative; }
+  .hero a:hover {
+    background-color: rgba(127, 246, 255, 0.014);
+    color: aquamarine;
+    transition: 1s; }
 
 .boton {
   text-decoration: none;
@@ -162,11 +166,11 @@ footer {
     width: 40%;
     background-color: #6ec1e4;
     padding: 10px; }
-    .rutinas div h2 {
+    .rutinas div h1 {
       margin-bottom: 20px;
       font-size: 45px;
       font-weight: 600px; }
-    .rutinas div h3 {
+    .rutinas div h2 {
       font-size: 20px; }
   .rutinas img {
     height: 500px; }
